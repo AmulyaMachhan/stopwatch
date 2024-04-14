@@ -5,7 +5,7 @@ This is a simple stopwatch website built using HTML, CSS, and JavaScript. It all
 You can view this site [here](https://amulyamachhan.github.io/stopwatch/).
 
 ## Preview
-![Uploading amulyamachhan.github.io_stopwatch_.png…]()
+![amulyamachhan github io_stopwatch_](https://github.com/AmulyaMachhan/stopwatch/assets/111338400/e612b5bb-2592-46e9-8361-b9bc74144b67)
 
 ## Features
 
