@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('/pexels-krivec-ales-547115.jpg') no-repeat center ;
+    background: url('./pexels-krivec-ales-547115.jpg') no-repeat center ;
     background-size: cover;
     background-position: center;
 }
