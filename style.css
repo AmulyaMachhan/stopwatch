@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap');
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Copse";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/pexels-krivec-ales-547115.jpg') no-repeat center ;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    width: 40%;
+    min-width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 7.5px );
+}
+.container h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.timer-display {
+    position: relative;
+    width: 92%;
+    background: #fff;
+    left: 4%;
+    color: rgb(142, 113, 113);
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons svg:hover{
+    color: #eeb6be;
+    width: 40px;
+}
+
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
